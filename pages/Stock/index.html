@@ -5,13 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion des mouvement d’un 
         magasin</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/all.min.css">
-    
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/all.min.css">
 </head>
 <body>
     <div class="container-fluid">
@@ -20,7 +15,7 @@
             <div class="col-auto col-md-3 col-xl-2 bg-dark">
                 <div class="sticky-top d-flex flex-column text-white min-vh-100">
                     <a href="/" class="text-white text-decoration-none text-center py-1">
-                        <i class="fab fa-github fa-2x"></i>
+                        <i class="fa fa-github fa-2x"></i>
                         <span class="ms-2 fs-3 d-none d-sm-inline">Stock</span>
                     </a>
                     <hr>
@@ -80,8 +75,8 @@
                         <a href="#" class="d-flex align-items-center text-dark text-decoration-none
                                         dropdown-toggle"
                             id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="../assets/photos/profileold.png" alt="user picture" height="30" weight="30" srcset="">
-                            <span class="d-none d-sm-inline mx-1">Name user</span>
+                            <img src="../../assets/photos/coco.jpg" alt="user picture" height="30" weight="30" srcset="">
+                            <span class="d-none d-sm-inline mx-1">Claudine</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                             <li>
@@ -101,123 +96,121 @@
                 </div>
 
                 <!-- contenu -->
-                
-                   
-                    <div class="responsive-table-line" style="margin:0px auto;max-width:700px;">
-                        <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Ajouter</button>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Ajouter une nouvelle produits</h4>
-      </div>
-      <div class="modal-body">
-        <form>
-            <div class="form-group">
-                <label for="fname">Model</label>
-                <input type="text" id="Model" name="Model" placeholder="Enter le Model">
-            </div>
-
-                <div class="form-group">
-                    <label for="lname">Marques</label>
-                    <input type="text" id="Marques" name="Marques" placeholder="Entrer le Marques">
-                </div>
-         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-                            <table class="table table-bordered table-condensed " >
-                            <thead>
+                <div>
+                    <h1 style="text-align:center"> LES PRODUITS</h1>
+        
+                    <div class="text-md-end">
+                        <a class="btn btn-outline-success" href="/create/create.html" role="button">Nouvelle produits</a>
+                        
+                    </div>
+                    <table class="table">
+                        <thead>
                             <tr>
-                              
-                            <th>Identification</th>
-                            <th>Marque</th>
-                            <th>Model</th>
+                                <th scope="col">Identification</th>
+                                <th scope="col">Marque</th>
+                                <th scope="col">Model</th>
+                                <th scope="col">Actions</th>
                             </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                <tr>
-                                    <td >P001</td>
-                                    <td >Hp</td>
-                                    <td >4030U</td>
-                                    <td ><i class="fas fa-trash-alt"></i>|<i class="fas fa-edit"></i></>   
-                                </tr>
-                                
-                             </tbody>
-                       
-                            </div>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                             po           <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">A123</th>
+                                <td>HP</td>
+                                <td>4030U</td>
+                                <td>
+                                    <form action="" method="post">
+                                        <button class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        <a  href="#" role="button"  class="btn  btn-primary ms-1 btn-sm">
+                                            <i class="fas fa-pen"></i></a>
+                                    </form>
+                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+        
+                    
+                </div>
+    
+     
                         </div>
                 </div>
             </div>
-
- 
+            
      
-  <script src="../assets/js/bootstrap.bundle.min.js"> </script> 
-  <script src="../assets/js/all.min.js"></script>
+  <script src="../..assets/js/bootstrap.bundle.min.js"> </script> 
+  <script src="../..assets/js/all.min.js"></script>
 </body>
 </html>
